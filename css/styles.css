@@ -1,0 +1,8 @@
+body {
+    font-family: 'Averia Serif Libre', cursive;
+    background-color:rgb(58, 154, 228);
+}
+
+header, footer {
+    background-color: yellow;
+}
