@@ -4,6 +4,21 @@ body {
     /* background-color:rgb(58, 154, 228); */
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
 header, footer {
     background-color: yellow;
+}
+
+
+.modal-content {
+    border-radius: 10%;
+    background-color: rgba(239,243,31, .7);
 }
