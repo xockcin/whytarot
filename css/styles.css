@@ -25,4 +25,14 @@ header, footer {
 
 #faq {
     background: linear-gradient(rgb(128, 124, 124),rgb(192, 191, 191));
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.card {
+    margin: 100px auto 30px;
+    height: 300px;
+    background-color: rgb(14, 15, 15);
+    padding: 2px;
+    border-radius: 5%;
 }
