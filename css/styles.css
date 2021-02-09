@@ -34,6 +34,7 @@ header, footer {
     background: linear-gradient(rgb(128, 124, 124),rgb(192, 191, 191));
     padding: 2px;
     border-radius: 5%;
+
 }
 
 h1 {
@@ -43,3 +44,4 @@ h1 {
 h1:hover {
     text-align: center;
 }
+
