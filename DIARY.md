@@ -11,3 +11,7 @@ Last night I changed the About page so that the content was in a card instead of
 The first task is to create the menu. I will begin by copy-pasting the entire container that I put my FAQ in last night and put it in the Index page, just to establish the space, and then convert it from a scrolling text body into a menu. The best way to do it would probably be with rows: One container, one row, four columns.
 
 Not sure yet about colors and other razzle-dazzle. I do know that I want it to hide whenever a modal is active, and to appear and disappear with a flipping animation.
+
+# 2/9/21
+
+Today I will actually do what I said I was going to do yesterday. I will start by copy-pasting the content div from the about page
