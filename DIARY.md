@@ -14,4 +14,12 @@ Not sure yet about colors and other razzle-dazzle. I do know that I want it to h
 
 # 2/9/21
 
-Today I will actually do what I said I was going to do yesterday. I will start by copy-pasting the content div from the about page
+Today I will actually do what I said I was going to do yesterday. I will start by copy-pasting the content div from the about page.
+
+# 2/10/21
+
+Yesterday I did what I said I was going to do, although I forgot to document it. The index page now has a menu with four items. For the colors I just used Bootstraps built-ins. I've also incorporated a JQuery plugin that I will use to make the menu flip over like a card.
+
+My current challenge is that I lost some styling, probably when I did the Git reset to change the content window on my about page back into a modal. I could root around in my Git log again to try and find it, but I think I'd rather just do it over.
+
+Okay, now it looks pretty good. On load, I see a splash modal with buttons that bring up the about modal and the schedule modal. The menu appears and disappears with a card-flipping effect. Right now the effect is triggered with hover, which is not ideal and won't translate well to smartphone screens, but works for the time being. I still need to make the blog and contact modals, even if the former is for now just a placeholder. I also need to refine the card-flipping effect so it triggers based on whether or not there is an active modal. I also need to make everything look a little bit nicer. Aside from that, it's pretty much done!

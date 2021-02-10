@@ -15,20 +15,22 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet"> 
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- header -->
     <header class="fixed-top">
         <nav class="navbar">
-            <a data-toggle="modal" href="#contentModal">
+            <a data-toggle="modal" href="#splashModal">
                 <h2>Why Tarot</h2>
             </a>
         </nav>
     </header>
 
-    <div class="modal hide fade" role="dialog" id="contentModal">
+    <!-- splash modal -->
+    <div class="modal hide fade" role="dialog" id="splashModal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
@@ -41,8 +43,8 @@
                             </div>
 
                             <div class="col-12">
-                                <h1 class="display-1">
-                                    <a href="about.html">?</a>
+                                <h1 class="display-1 text-center text-success bg-warning rounded-pill">
+                                    ?
                                 </h1>
                             </div>
 
@@ -51,6 +53,52 @@
                                     Tarot
                                 </h1>
                             </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" data-toggle="modal" data-target="#aboutModal" class="btn btn-success rounded-pill">
+                        <h4>
+                            learn more
+                        </h4>
+                    </button>
+
+                    <button data-dismiss="modal" data-toggle="modal" data-target="#scheduleModal" class="btn btn-danger rounded-pill">
+                        <h4>
+                            schedule a session
+                        </h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- schedule modal -->
+    <div class="modal hide fade" role="dialog" id="scheduleModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-center">
+                        Schedule a Session
+                    </h3>
+                    <button type="button" class="close p-3" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="form-control rounded-pill" placeholder="Name">                            
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control rounded-pill" placeholder="Email">                            
+                        </div>
+                        .<div class="form-group">
+                            <button type="submit" class="btn btn-warning rounded-pill">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -58,22 +106,56 @@
         </div>
     </div>
 
-    <div class="container" id="card">
+    <!-- about modal -->
+    <div class="modal hide fade" role="dialog" id="aboutModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content h-75">
+                <div class="modal-header">
+                    <h3>Why Tarot?</h3>
+                    <button type="button" class="close p-3" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="faq">
+                    <h5 class="text-light">What is it?</h5>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores explicabo veniam nulla quisquam adipisci, corporis, at, nobis corrupti ad eaque provident!
+                    </p>
+                    <h5 class="text-light">How does it work?</h5>
+                    <p class="text-justify">
+                        Quo placeat vel sit dolorem quae, maiores odit sint voluptatem repudiandae rerum velit cum minus voluptate est maxime quis debitis dolores deserunt laborum ipsa ullam. Architecto fugiat maiores maxime!
+                    </p>
+                    <h5 class="text-light">Does it hurt?</h5>
+                    <p class="text-justify">
+                        Quo placeat vel sit dolorem quae, maiores odit sint voluptatem repudiandae rerum velit cum minus voluptate est maxime quis debitis dolores deserunt laborum ipsa ullam. Architecto fugiat maiores maxime!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a data-dismiss="modal" data-toggle="modal" href="#scheduleModal"><h5 class="text-center">
+                        Schedule a session <i class="fa fa-star" aria-hidden="true"></i>
+                    </h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container my-auto" id="card">
         <div class="back">
             <div class="card card-block p-3">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12 bg-primary p-4">
-                            <h1>first row</h1>
+                            <a data-toggle="modal" href="#scheduleModal"><h2><strong>SCHEDULE A SESSION</strong></h2></a>
                         </div>
                         <div class="col-12 bg-warning p-4">
-                            <h1>second row</h1>
+                            <a href="#"><h1>blog</h1></a>
                         </div>
                         <div class="col-12 bg-success p-4">
-                            <h1>third row</h1>
+                            <a data-toggle="modal" href="#aboutModal"><h1>about</h1></a>
                         </div>
                         <div class="col-12 bg-danger p-4">
-                            <h1>fourth row</h1>
+                            <a href="#"><h1>contact</h1></a>
                         </div>
                     </div>
                 </div> 
@@ -81,6 +163,7 @@
         </div>
     </div>
 
+    <!-- footer -->
     <div class="container-float">
         <footer class="footer d-flex fixed-bottom align-items-center justify-content-center">
             <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -100,12 +183,12 @@
 
     <script>
         $(window).on('load', function() {
-            $('#contentModal').modal('show');
+            $('#splashModal').modal('show');
+            
             $("#card").flip({
-                axis: 'y',
                 trigger: 'hover'
-              });
-            <!-- let width = $(window).width(); -->
+            });
+        
         });
     </script>
 
