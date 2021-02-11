@@ -186,8 +186,16 @@
             $('#splashModal').modal('show');
             
             $("#card").flip({
-                trigger: 'hover';
+                trigger: 'manual'
             });
+
+            $(".modal").on("hidden.bs.modal", () => {
+                $("#card").flip(true);
+            })
+
+            $(".modal").on("show.bs.modal", () => {
+                $("#card").flip(false);
+            })
         
         });
     </script>
