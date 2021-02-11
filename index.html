@@ -282,9 +282,60 @@
                             </a>
                         </div>
                         <div class="col-12 bg-danger p-4">
-                            <a href="#">
+                            <a data-toggle="modal" 
+                                href="#contactModal">
                                 <h1>contact</h1>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact modal -->
+    <div class="modal hide fade"
+        role="dialog"
+        id="contactModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-center">
+                        What's on your mind?
+                    </h3>
+                    <button type="button"
+                        class="close p-3"
+                        data-dismiss="modal"
+                        aria-label="Close">
+                        <span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="form-group">
+                            <textarea class="my-input-bg" name="message" id="message" cols="30" rows="10" placeholder="What's on your mind?">
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text"
+                                name="name"
+                                id="name"
+                                class="form-control rounded-pill"
+                                placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email"
+                                name="email"
+                                id="email"
+                                class="form-control rounded-pill"
+                                placeholder="Email">
+                        </div>
+                        .<div class="form-group">
+                            <button type="submit"
+                                class="btn btn-warning rounded-pill">Submit</button>
                         </div>
                     </div>
                 </div>
