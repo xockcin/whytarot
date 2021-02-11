@@ -23,3 +23,13 @@ Yesterday I did what I said I was going to do, although I forgot to document it.
 My current challenge is that I lost some styling, probably when I did the Git reset to change the content window on my about page back into a modal. I could root around in my Git log again to try and find it, but I think I'd rather just do it over.
 
 Okay, now it looks pretty good. On load, I see a splash modal with buttons that bring up the about modal and the schedule modal. The menu appears and disappears with a card-flipping effect. Right now the effect is triggered with hover, which is not ideal and won't translate well to smartphone screens, but works for the time being. I still need to make the blog and contact modals, even if the former is for now just a placeholder. I also need to refine the card-flipping effect so it triggers based on whether or not there is an active modal. I also need to make everything look a little bit nicer. Aside from that, it's pretty much done!
+
+TODO: 
+
+-Turn the question mark div in the Splash modal into the button for the About modal. Get rid of the "learn more" button - instead, the "schedule a session" button should extend all the way across the modal, and the words "learn more" should appear on either side of the question mark. Not sure what color. Consider adding a flip effect on click.
+
+-Pick one "schedule a session" button style.
+
+-Make the X-out button look nicer.
+
+-Figure out and fix the bug that makes the menu appear at the beginning.
