@@ -15,6 +15,10 @@ a:hover {
     color: inherit;
 }
 
+footer > a:hover {
+    color: red;
+}
+
 header, footer {
     background-color: yellow;
 }
@@ -25,7 +29,7 @@ header, footer {
     background-color: rgba(239,243,31, .9);
 }
 
-#faq {
+.my-content-bg {
     background: linear-gradient(rgb(128, 124, 124),rgb(192, 191, 191));
 }
 
