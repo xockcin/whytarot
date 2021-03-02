@@ -6,12 +6,11 @@ body {
 
 a {
     color: inherit;
-    transition: text-align 1s;
+    text-align: center;
 }
 
 a:hover {
     text-decoration: none;
-    text-align: center;
     color: inherit;
 }
 
@@ -49,15 +48,8 @@ textarea {
 
 /* splash modal */
 
-.modal-content {
-  /* background-image: url("../images/thefool.png"); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  padding: px;
-}
-
 .modal-body {
+  border-radius: 10%;
   position: relative;
 }
 
@@ -74,5 +66,5 @@ textarea {
 #top-button {
   position: absolute;
   bottom: 6%;
-  left: 40%;
+  left: 45%;
 }
