@@ -2,409 +2,367 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap"
-        rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap"
+    rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet"
-        href="css/styles.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet"
+    href="css/styles.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header class="fixed-top">
-        <nav class="navbar">
-            <a data-toggle="modal"
-                href="#splashModal">
-                <h2>Why Tarot</h2>
-            </a>
-        </nav>
-    </header>
+  <!-- header -->
+  <header class="fixed-top">
+    <nav class="navbar">
+      <a data-toggle="modal"
+        href="#splashModal">
+        <h2>The Code Fool</h2>
+      </a>
+    </nav>
+  </header>
 
-    <!-- splash modal -->
-    <div class="modal hide fade"
-        role="dialog"
-        id="splashModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header d-flex flex-row-reverse">
-                    <button type="button"
-                        class="btn btn-secondary rounded-pill p-1"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                        <h4
-                            class="align-self-center"
-                            aria-hidden="true">close</h4>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1
-                                    class="display-2 text-center">
-                                    WHY
-                                </h1>
-                            </div>
-
-                            <div class="col-12">
-                                <a data-toggle="modal"
-                                href="#aboutModal"
-                                data-dismiss="modal">
-                                    
-                                    <div class="d-flex align-items-center justify-content-around container bg-warning rounded-pill">
-                                        <h2 class="text-let">
-                                            learn
-                                        </h2>
-                                        <h1
-                                            class="display-1 text-ceter text-success">
-                                            ?
-                                        </h1>
-                                        <h2 class="text-riht">
-                                            more
-                                        </h2>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-12">
-                                <h1
-                                    class="display-3 text-center">
-                                    Tarot
-                                </h1>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    
-
-                    <button data-dismiss="modal"
-                        data-toggle="modal"
-                        data-target="#scheduleModal"
-                        class="btn btn-danger rounded-pill">
-                        <h4>
-                            schedule a session
-                        </h4>
-                    </button>
-                </div>
+  <!-- splash modal -->
+  <div class="modal hide fade"
+    role="dialog"
+    id="splashModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-flex">
+            <img src="images/thefool2.png"
+              class="img-fluid bg-secondary p-2 my-3"
+              alt="">
+            <div class="d-flex p-5 rounded-pill"
+              id="slogan">
+              <h4>
+                <strong>"If the fool would persist in his
+                  folly, he would become wise."</strong>
+                <hr>
+                <cite>
+                  <div><h6>-William Blake</h6></div>
+                </cite>
+              </h4>
             </div>
+            <button typle="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              id="top-button"
+              class="btn btn-secondary rounded-pill">
+              enter
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- schedule modal -->
-    <div class="modal hide fade"
-        role="dialog"
-        id="scheduleModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="text-center">
-                        Schedule a Session
-                    </h3>
-                    <button type="button"
-                        class="btn btn-secondary rounded-pill p-1"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                        <h4
-                            class="align-self-center"
-                            aria-hidden="true">close</h4>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text"
-                                name="name"
-                                id="name"
-                                class="form-control rounded-pill"
-                                placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email"
-                                name="email"
-                                id="email"
-                                class="form-control rounded-pill"
-                                placeholder="Email">
-                        </div>
-                        .<div class="form-group">
-                            <button type="submit"
-                                class="btn btn-warning rounded-pill">Submit</button>
-                        </div>
-                    </div>
-                </div>
+  <!-- schedule modal -->
+  <div class="modal hide fade"
+    role="dialog"
+    id="scheduleModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="text-center">
+            Schedule a Session
+          </h3>
+          <button type="button"
+            class="btn btn-secondary rounded-pill p-1"
+            data-dismiss="modal"
+            aria-label="Close">
+            <h4 class="align-self-center"
+              aria-hidden="true">close</h4>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text"
+                name="name"
+                id="name"
+                class="form-control rounded-pill"
+                placeholder="Name">
             </div>
-        </div>
-    </div>
-
-    <!-- blog modal -->
-    <div class="modal hide fade"
-        role="dialog"
-        id="blogModal">
-        <div
-            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content h-75">
-                <div class="modal-header">
-                    <h3>Why Tarot?</h3>
-                    <button type="button"
-                        class="btn btn-secondary rounded-pill p-1"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                        <h4
-                            class="align-self-center"
-                            aria-hidden="true">close</h4>
-                    </button>
-                </div>
-                <div class="modal-body my-content-bg"
-                    id="blog">
-                    <h5 class="text-light">Coming soon!</h5>
-                </div>
-                <div class="modal-footer">
-                    <a data-dismiss="modal"
-                        data-toggle="modal"
-                        href="#scheduleModal">
-                        <h5 class="text-center">
-                            Schedule a session <i
-                                class="fa fa-star"
-                                aria-hidden="true"></i>
-                        </h5>
-                    </a>
-                </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email"
+                name="email"
+                id="email"
+                class="form-control rounded-pill"
+                placeholder="Email">
             </div>
-        </div>
-    </div>
-
-    <!-- about modal -->
-    <div class="modal hide fade"
-        role="dialog"
-        id="aboutModal">
-        <div
-            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content h-75">
-                <div class="modal-header">
-                    <h3>Why Tarot?</h3>
-                    <button type="button"
-                        class="btn btn-secondary rounded-pill p-1"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                        <h4
-                            class="align-self-center"
-                            aria-hidden="true">close</h4>
-                    </button>
-                </div>
-                <div class="modal-body my-content-bg"
-                    id="faq">
-                    <h5 class="text-light">What is it?</h5>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit.
-                        Dolores explicabo veniam nulla
-                        quisquam adipisci, corporis, at,
-                        nobis corrupti ad eaque provident!
-                    </p>
-                    <h5 class="text-light">How does it work?
-                    </h5>
-                    <p class="text-justify">
-                        Quo placeat vel sit dolorem quae,
-                        maiores odit sint voluptatem
-                        repudiandae rerum velit cum minus
-                        voluptate est maxime quis debitis
-                        dolores deserunt laborum ipsa ullam.
-                        Architecto fugiat maiores maxime!
-                    </p>
-                    <h5 class="text-light">Does it hurt?
-                    </h5>
-                    <p class="text-justify">
-                        Quo placeat vel sit dolorem quae,
-                        maiores odit sint voluptatem
-                        repudiandae rerum velit cum minus
-                        voluptate est maxime quis debitis
-                        dolores deserunt laborum ipsa ullam.
-                        Architecto fugiat maiores maxime!
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <a data-dismiss="modal"
-                        data-toggle="modal"
-                        href="#scheduleModal">
-                        <h5 class="text-center">
-                            Schedule a session <i
-                                class="fa fa-star"
-                                aria-hidden="true"></i>
-                        </h5>
-                    </a>
-                </div>
+            .<div class="form-group">
+              <button type="submit"
+                class="btn btn-warning rounded-pill">Submit</button>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- menu -->
-    <div class="container my-auto"
-        id="card">
-        <div class="back">
-            <div class="card card-block p-3">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-12 bg-primary p-4">
-                            <a data-toggle="modal"
-                                href="#scheduleModal">
-                                <h2><strong>SCHEDULE A
-                                        SESSION</strong>
-                                </h2>
-                            </a>
-                        </div>
-                        <div class="col-12 bg-warning p-4">
-                            <a data-toggle="modal"
-                                href="#blogModal">
-                                <h1>blog</h1>
-                            </a>
-                        </div>
-                        <div class="col-12 bg-success p-4">
-                            <a data-toggle="modal"
-                                href="#aboutModal">
-                                <h1>about</h1>
-                            </a>
-                        </div>
-                        <div class="col-12 bg-danger p-4">
-                            <a data-toggle="modal" 
-                                href="#contactModal">
-                                <h1>contact</h1>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+  <!-- blog modal -->
+  <div class="modal hide fade"
+    role="dialog"
+    id="blogModal">
+    <div
+      class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content h-75">
+        <div class="modal-header">
+          <h3>Why Tarot?</h3>
+          <button type="button"
+            class="btn btn-secondary rounded-pill p-1"
+            data-dismiss="modal"
+            aria-label="Close">
+            <h4 class="align-self-center"
+              aria-hidden="true">close</h4>
+          </button>
+        </div>
+        <div class="modal-body my-content-bg"
+          id="blog">
+          <h5 class="text-light">Coming soon!</h5>
+        </div>
+        <div class="modal-footer">
+          <a data-dismiss="modal"
+            data-toggle="modal"
+            href="#scheduleModal">
+            <h5 class="text-center">
+              Schedule a session <i class="fa fa-star"
+                aria-hidden="true"></i>
+            </h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about modal -->
+  <div class="modal hide fade"
+    role="dialog"
+    id="aboutModal">
+    <div
+      class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content h-75">
+        <div class="modal-header">
+          <h3>Why Tarot?</h3>
+          <button type="button"
+            class="btn btn-secondary rounded-pill p-1"
+            data-dismiss="modal"
+            aria-label="Close">
+            <h4 class="align-self-center"
+              aria-hidden="true">close</h4>
+          </button>
+        </div>
+        <div class="modal-body my-content-bg"
+          id="faq">
+          <h5 class="text-light">What is it?</h5>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Dolores explicabo veniam nulla
+            quisquam adipisci, corporis, at,
+            nobis corrupti ad eaque provident!
+          </p>
+          <h5 class="text-light">How does it work?
+          </h5>
+          <p class="text-justify">
+            Quo placeat vel sit dolorem quae,
+            maiores odit sint voluptatem
+            repudiandae rerum velit cum minus
+            voluptate est maxime quis debitis
+            dolores deserunt laborum ipsa ullam.
+            Architecto fugiat maiores maxime!
+          </p>
+          <h5 class="text-light">Does it hurt?
+          </h5>
+          <p class="text-justify">
+            Quo placeat vel sit dolorem quae,
+            maiores odit sint voluptatem
+            repudiandae rerum velit cum minus
+            voluptate est maxime quis debitis
+            dolores deserunt laborum ipsa ullam.
+            Architecto fugiat maiores maxime!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a data-dismiss="modal"
+            data-toggle="modal"
+            href="#scheduleModal">
+            <h5 class="text-center">
+              Schedule a session <i class="fa fa-star"
+                aria-hidden="true"></i>
+            </h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- menu -->
+  <div class="container my-auto"
+    id="card">
+    <div class="back">
+      <div class="card card-block p-3">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 bg-primary p-4 border border-danger">
+              <a data-toggle="modal"
+                href="#scheduleModal">
+                <h1>portfolio
+                </h1>
+              </a>
             </div>
+            <div class="col-12 bg-warning p-4 border border-success">
+              <a data-toggle="modal"
+                href="#blogModal">
+                <h1>blog</h1>
+              </a>
+            </div>
+            <div class="col-12 bg-success p-4 border border-warning">
+              <a data-toggle="modal"
+                href="#aboutModal">
+                <h1>about</h1>
+              </a>
+            </div>
+            <div class="col-12 bg-danger p-4 border border-info">
+              <a data-toggle="modal"
+                href="#contactModal">
+                <h1>contact</h1>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- contact modal -->
-    <div class="modal hide fade"
-        role="dialog"
-        id="contactModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="text-center">
-                        What's on your mind?
-                    </h3>
-                    <button type="button"
-                        class="btn btn-secondary rounded-pill p-1"
-                        data-dismiss="modal"
-                        aria-label="Close">
-                        <h4
-                            class="align-self-center"
-                            aria-hidden="true">close</h4>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="form-group">
-                            <textarea class="my-input-bg" name="message" id="message"  rows="5">
+  <!-- contact modal -->
+  <div class="modal hide fade"
+    role="dialog"
+    id="contactModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="text-center">
+            What's on your mind?
+          </h3>
+          <button type="button"
+            class="btn btn-secondary rounded-pill p-1"
+            data-dismiss="modal"
+            aria-label="Close">
+            <h4 class="align-self-center"
+              aria-hidden="true">close</h4>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="form-group">
+              <textarea class="my-input-bg"
+                name="message"
+                id="message"
+                rows="5">
                             </textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text"
-                                name="name"
-                                id="name"
-                                class="form-control rounded-pill"
-                                placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email"
-                                name="email"
-                                id="email"
-                                class="form-control rounded-pill"
-                                placeholder="Email">
-                        </div>
-                        .<div class="form-group">
-                            <button type="submit"
-                                class="btn btn-warning rounded-pill">Submit</button>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text"
+                name="name"
+                id="name"
+                class="form-control rounded-pill"
+                placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email"
+                name="email"
+                id="email"
+                class="form-control rounded-pill"
+                placeholder="Email">
+            </div>
+            .<div class="form-group">
+              <button type="submit"
+                class="btn btn-warning rounded-pill">Submit</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- footer -->
-    <div class="container-float">
-        <footer
-            class="footer d-flex fixed-bottom align-items-center justify-content-center">
-            <a href="http://instagram.com/"><i
-                    class="fa fa-instagram"></i></a>
-            <a href="http://facebook.com/"><i
-                    class="fa fa-facebook"></i></a>
-            <a href="http://twitter.com/"><i
-                    class="fa fa-twitter"></i></a>
-            <a href="http://youtube.com/"><i
-                    class="fa fa-youtube"></i></a>
-        </footer>
-    </div>
+  <!-- footer -->
+  <div class="container-float">
+    <footer
+      class="footer d-flex fixed-bottom align-items-center justify-content-center">
+      <a href="http://instagram.com/"><i
+          class="fa fa-instagram"></i></a>
+      <a href="http://facebook.com/"><i
+          class="fa fa-facebook"></i></a>
+      <a href="http://twitter.com/"><i
+          class="fa fa-twitter"></i></a>
+      <a href="http://youtube.com/"><i
+          class="fa fa-youtube"></i></a>
+    </footer>
+  </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 
-    <script>
-        $(window).on('load', function () {
-            $('#splashModal').modal('show');
+  <script>
+    $(window).on('load', function () {
+      $('#splashModal').modal('show');
 
-            $("#card").flip({
-                trigger: 'manual'
-            });
+      $("#card").flip({
+        trigger: 'manual'
+      });
 
-            $(".modal").on("hidden.bs.modal", () => {
-                $("#card").flip(true);
-            })
+      $(".modal").on("hidden.bs.modal", () => {
+        $("#card").flip(true);
+      })
 
-            $(".modal").on("shown.bs.modal", () => {
-                $("#card").flip(false);
-            })
+      $(".modal").on("shown.bs.modal", () => {
+        $("#card").flip(false);
+      })
 
-        });
-    </script>
+    });
+  </script>
 
 </body>
 

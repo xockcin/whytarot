@@ -33,3 +33,7 @@ TODO:
 -Make the X-out button look nicer.
 
 -Figure out and fix the bug that makes the menu appear at the beginning.
+
+## 3/2/21
+
+Breaking news! I've decided to turn this website into a general-purpose portfolio page for myself. The title of the website will be "The Code Fool". The splash modal will have a picture of The Fool, and the quote from Blake. This may be my first branch!
