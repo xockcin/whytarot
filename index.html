@@ -89,21 +89,28 @@
               aria-hidden="true">&times;</h1>
           </button>
         </div>
-        <div class="modal-body">
-          <div class="container">
+        <div class="my-content-bg modal-body m-2">
+          <div class="container bg-light">
             <table class="table table-striped">
               <tbody>
-                <tr class="row">
-                  <th>0</th>
-                  <th><a href="https://sqqnt.csb.app">bitgame</a></th>
+
+                
+                <tr id="bitgame-item" class="in-blood">
+                  <td>0</td>
+                  <td><a href="https://sqqnt.csb.app/" target="_blank">bitgame</a></td>
+                  <td>3/8/21</td>
                 </tr >
-                <tr class="row">
+                
+                
+                <tr>
                   <td>1</td>
-                  <td>goodbye</td>
+                  <td>lorem</td>
+                  <td>Date</td>
                 </tr>
-                <tr class="row">
+                <tr >
                   <td>2</td>
-                  <td>peace</td>
+                  <td>impsum</td>
+                  <td>Date</td>
                 </tr>
               </tbody>
             </table>
@@ -120,26 +127,30 @@
     <div
       class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content h-75">
-        <div class="modal-header">
-          <h3>Why Tarot?</h3>
+        <div class="modal-header rounded-pill m-3 bg-secondary">
+          <h1 class="text-center text-light p-2">
+            Blog
+          </h1>
           <button type="button"
             class="btn btn-secondary rounded-pill p-1"
             data-dismiss="modal"
             aria-label="Close">
-            <h4 class="align-self-center"
-              aria-hidden="true">close</h4>
+            <h1 class="align-self-center"
+              aria-hidden="true">&times;</h1>
           </button>
         </div>
-        <div class="modal-body my-content-bg"
-          id="blog">
-          <h5 class="text-light">Coming soon!</h5>
+        <div class="modal-body m-2 my-content-bg"
+          id="faq">
+          <h3 class="text-light">
+            Under Construction...
+          </h3>
         </div>
         <div class="modal-footer">
           <a data-dismiss="modal"
             data-toggle="modal"
             href="#scheduleModal">
             <h5 class="text-center">
-              Schedule a session <i class="fa fa-star"
+              Get in touch <i class="fa fa-star"
                 aria-hidden="true"></i>
             </h5>
           </a>
@@ -155,53 +166,33 @@
     <div
       class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content h-75">
-        <div class="modal-header">
-          <h3>The Code Fool</h3>
+        <div class="modal-header rounded-pill m-3 bg-secondary">
+          <h1 class="text-center text-light p-2">
+            About
+          </h1>
           <button type="button"
             class="btn btn-secondary rounded-pill p-1"
             data-dismiss="modal"
             aria-label="Close">
-            <h4 class="align-self-center"
-              aria-hidden="true">close</h4>
+            <h1 class="align-self-center"
+              aria-hidden="true">&times;</h1>
           </button>
         </div>
-        <div class="modal-body my-content-bg"
+        <div class="modal-body m-2 my-content-bg"
           id="faq">
-          <h5 class="text-light">What is it?</h5>
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.
-            Dolores explicabo veniam nulla
-            quisquam adipisci, corporis, at,
-            nobis corrupti ad eaque provident!
-          </p>
-          <h5 class="text-light">How does it work?
+          <h5 class="text-light">
+            Hello
           </h5>
           <p class="text-justify">
-            Quo placeat vel sit dolorem quae,
-            maiores odit sint voluptatem
-            repudiandae rerum velit cum minus
-            voluptate est maxime quis debitis
-            dolores deserunt laborum ipsa ullam.
-            Architecto fugiat maiores maxime!
-          </p>
-          <h5 class="text-light">Does it hurt?
-          </h5>
-          <p class="text-justify">
-            Quo placeat vel sit dolorem quae,
-            maiores odit sint voluptatem
-            repudiandae rerum velit cum minus
-            voluptate est maxime quis debitis
-            dolores deserunt laborum ipsa ullam.
-            Architecto fugiat maiores maxime!
+            My plan here is to make a new website every week. Stay tuned!
           </p>
         </div>
         <div class="modal-footer">
           <a data-dismiss="modal"
             data-toggle="modal"
-            href="#scheduleModal">
+            href="#contactModal">
             <h5 class="text-center">
-              Schedule a session <i class="fa fa-star"
+              Get in touch <i class="fa fa-star"
                 aria-hidden="true"></i>
             </h5>
           </a>
@@ -255,48 +246,29 @@
     id="contactModal">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="text-center">
-            What's on your mind?
-          </h3>
+        <div class="modal-header rounded-pill m-3 bg-secondary">
+          <h1 class="text-center text-light p-2">
+            Contact
+          </h1>
           <button type="button"
             class="btn btn-secondary rounded-pill p-1"
             data-dismiss="modal"
             aria-label="Close">
-            <h4 class="align-self-center"
-              aria-hidden="true">close</h4>
+            <h1 class="align-self-center"
+              aria-hidden="true">&times;</h1>
           </button>
         </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="form-group">
-              <textarea class="my-input-bg"
-                name="message"
-                id="message"
-                rows="5">
-                            </textarea>
-            </div>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text"
-                name="name"
-                id="name"
-                class="form-control rounded-pill"
-                placeholder="Name">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email"
-                name="email"
-                id="email"
-                class="form-control rounded-pill"
-                placeholder="Email">
-            </div>
-            .<div class="form-group">
-              <button type="submit"
-                class="btn btn-warning rounded-pill">Submit</button>
-            </div>
-          </div>
+        <div class="modal-body d-flex justify-content-center m-2 my-content-bg"
+          id="faq">
+          <img class="mr-1 w-xs-50" src="./assets/3_2_1_Contact_Opening_Theme_Intro_1983_1986_2.gif" alt="">
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.youtube.com/watch?v=VOaZbaPzdsk" target="_blank">
+            <h5 class="text-center">
+              Contact <i class="fa fa-star"
+                aria-hidden="true"></i>
+            </h5>
+          </a>
         </div>
       </div>
     </div>
@@ -338,6 +310,7 @@
   <script>
     $(window).on('load', function () {
       $('#splashModal').modal('show');
+      
 
       $("#card").flip({
         trigger: 'manual'

@@ -29,7 +29,11 @@ a:hover {
   }
 }
 
-footer > a:hover {
+.btn:hover {
+  background-color: inherit;
+}
+
+.in-blood:hover {
     color: red;
 }
 
@@ -40,7 +44,7 @@ header, footer {
 
 .modal-content {
     border-radius: 10%;
-    background-color: rgba(239,243,31, .9);
+    background: linear-gradient(rgba(229, 255, 0, 0.9), rgba(239,243,31, .9))
 }
 
 .my-content-bg {
@@ -82,4 +86,10 @@ textarea {
   position: absolute;
   bottom: 6%;
   left: 45%;
+}
+
+#bitgame-item:hover {
+  font-family: monospace;
+  background-image: url(../assets/bg-thumb-smaller.jpg);
+  opacity: .9;
 }
