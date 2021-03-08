@@ -4,6 +4,8 @@ body {
     /* background-color:rgb(58, 154, 228); */
 }
 
+/* menu */
+
 a {
     color: inherit;
     text-align: center;
@@ -12,6 +14,19 @@ a {
 a:hover {
     text-decoration: none;
     color: inherit;
+}
+
+.menu-btn {
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  .menu-btn {
+    height: 155px;
+  }
+  .menu-btn > a > h2 {
+    font-size: 40px;
+  }
 }
 
 footer > a:hover {
