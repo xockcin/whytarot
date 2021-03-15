@@ -82,6 +82,12 @@ textarea {
   margin: auto;
 }
 
+#slogan:hover {
+  background-color:rgba(243, 0, 0, 0.9);
+  color:yellow;
+  cursor: pointer;
+}
+
 #top-button {
   position: absolute;
   bottom: 6%;
