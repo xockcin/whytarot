@@ -4,11 +4,16 @@ body {
     /* background-color:rgb(58, 154, 228); */
 }
 
+/* general */
+
+.in-blood:hover {
+    color: red;
+}
+
 /* menu */
 
 a {
     color: inherit;
-    text-align: center;
 }
 
 a:hover {
@@ -18,6 +23,7 @@ a:hover {
 
 .menu-btn {
   height: 80px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -33,14 +39,13 @@ a:hover {
   background-color: inherit;
 }
 
-.in-blood:hover {
-    color: red;
-}
-
 header, footer {
     background-color: yellow;
 }
 
+.modal-body {
+  padding: 5px;
+}
 
 .modal-content {
     border-radius: 10%;
@@ -97,5 +102,33 @@ textarea {
 #bitgame-item:hover {
   font-family: monospace;
   background-image: url(../assets/bg-thumb-smaller.jpg);
+  opacity: .9;
+}
+
+.carousel-inner {
+  border-radius: 25%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #eeeeee;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .overlay {
   opacity: .9;
 }
