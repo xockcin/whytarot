@@ -37,3 +37,13 @@ TODO:
 ## 3/2/21
 
 Breaking news! I've decided to turn this website into a general-purpose portfolio page for myself. The title of the website will be "The Code Fool". The splash modal will have a picture of The Fool, and the quote from Blake. This may be my first branch!
+
+## 4/14/21
+
+I am returning to this website after about a month and a half of not thinking about it. I just took a mild stab at redoing the whole thing as a React, which I think will probably not be necessary.
+
+The question is, how to do the blog? I could make it a little mini React component within a non-React website, and indeed that would be good practice.
+
+But I am also thinking that it is not the most urgent thing to do.
+
+What I should be doing is getting my portfolio in good enough shape so that I can start showing it to potential employers, and what that means, mostly, is more projects. I will therefore leave this project for now and come back to it once I have created more projects to feature in it.
